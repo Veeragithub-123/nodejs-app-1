@@ -1,7 +1,7 @@
 pipeline {
     agent {label "Slave-Docker"} 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('docker-hub-rnraju')
+    DOCKERHUB_CREDENTIALS = credentials('docker-hub-veera')
     }
     stages { 
         stage('SCM Checkout') {
